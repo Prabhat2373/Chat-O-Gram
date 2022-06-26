@@ -1,0 +1,19 @@
+{
+  "name": "chatgram",
+  "version": "1.0.0",
+  "description": "online chatting platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "prabhat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1"
+  }
+}

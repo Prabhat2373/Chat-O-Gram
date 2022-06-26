@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGram</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="top-section">
+            <div class="user-name">
+                <h2 class="name" id="name">CLASH</h2>
+            </div>
+            <div class="profile-img-container" id="profile-img-container">
+                <img src="./User_Circle.png" alt="" class="profile" id="profile">
+                <h3 class="online-status" id="onlineOrNot">offline</h3>
+            </div>
+            <div class="info">
+                <h3 class="Typing" id="Typing">Not Typing...</h3>
+            </div>
+        </div>
+    </nav>
+    <section class="msg-container">
+        <div class="messages-box" id="messages-box">
+            <!-- <div class="messages right">
+                <div class="message-top">
+                    <img src="/User_Circle.png" alt="" class="profile msg-img">
+                    <span class="time">today</span>
+                </div>
+                <p class="message right-msg">hello World</p>
+            </div> -->
+            <!-- <div class="messages left">
+                <div class="message-top rev">
+                    <img src="/User_Circle.png" alt="" class="profile msg-img">
+                    <span class="time">today</span>
+                </div>
+                <p class="message left-msg">Hey</p>
+            </div> -->
+
+        </div>
+    </section>
+    <section class="form-container">
+        <form action="#" id="msgForm">
+            <input type="text" name="message" id="message-input" placeholder="Type here" class="message-input">
+            <input type="submit" value="send" id="send" class="send">
+        </form>
+    </section>
+    <!-- <div class="modal show-modal">
+        <div class="modal-content">
+            <h1 class="modal-heading">Enter Your Name Please</h1>
+            <div class="modal-form">
+                <form action="/" class="m-form" id="m-form">
+                    <input type="text" name="username" id="user-name" class="user-name"
+                        placeholder="Your Name Please...">
+                    <input type="submit" value="Done" id="submit" class="submit">
+                </form>
+            </div>
+        </div>
+        </div> -->
+        <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+        <script src="./../client.js"></script>
+        <script>
+            
+        </script>
+</body>
+
+</html>
